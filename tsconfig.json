@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "allowImportingTsExtensions": true,
+    "checkJs": true,
+    "paths": {
+      "@firebase/auth": ["./node_modules/@firebase/auth/dist/index.rn.d.ts"],
+      // "@firebase": ["./node_modules/@firebase"],
+      "@/*": ["./*"]
+    }
+  },
+  "extends": "expo/tsconfig.base",
+  "include": ["**/*.ts", "**/*.tsx", "assets/illustrations/locationsvg.tsx"]
+}

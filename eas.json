@@ -1,0 +1,44 @@
+{
+  "cli": {
+    "version": ">= 7.3.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "FIREBASE_API_KEY": "AIzaSyByYYyy4Epc5bbp_So4K6uMs-AQxRJtlp0",
+        "FIREBASE_AUTH_DOMAIN": "ejeep-cffe9.firebaseapp.com",
+        "FIREBASE_PROJECT_ID": "ejeep-cffe9",
+        "FIREBASE_STORAGE_BUCKET": "ejeep-cffe9.appspot.com",
+        "FIREBASE_MESSAGING_SENDER_ID": "265717439831",
+        "FIREBASE_APP_ID": "1:265717439831:web:3c39831d253e6f101ef212"
+      },
+      "autoIncrement": true,
+      "android": {
+        "autoIncrement": "version"
+      }
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "android": {
+        "buildType": "apk",
+        "autoIncrement": "version"
+      },
+      "autoIncrement": true,
+      "env": {
+        "FIREBASE_API_KEY": "AIzaSyByYYyy4Epc5bbp_So4K6uMs-AQxRJtlp0",
+        "FIREBASE_AUTH_DOMAIN": "ejeep-cffe9.firebaseapp.com",
+        "FIREBASE_PROJECT_ID": "ejeep-cffe9",
+        "FIREBASE_STORAGE_BUCKET": "ejeep-cffe9.appspot.com",
+        "FIREBASE_MESSAGING_SENDER_ID": "265717439831",
+        "FIREBASE_APP_ID": "1:265717439831:web:3c39831d253e6f101ef212"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

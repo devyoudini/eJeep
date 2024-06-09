@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "eJeep",
+    "slug": "ejeep",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.youdini.ejeep",
+      "versionCode": 6,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCZ_ECA17-oRp6k0yabC8EXzWZkYGx8R1c"
+        }
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION"
+      ],
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0294d5d1-9f3b-4124-bd39-892454d07bdd"
+      }
+    },
+    "owner": "youdini",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "isAndroidForegroundServiceEnabled": true
+        }
+      ]
+    ],
+    "scheme": "ejeep",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0294d5d1-9f3b-4124-bd39-892454d07bdd"
+    }
+  }
+}
